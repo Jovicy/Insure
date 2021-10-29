@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+header nav ul li {
+    list-style: none;
+    padding: 1em 1em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #9c9a9d;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.logo {
+    flex: 0.8;
+}
+
+.nav-but {
+    background: #ffffff;
+    color: #2c2640;
+    border: 2px solid #2c2640;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.hero-header {
+    background: #2c2640;
+    background-image: url('./images/bg-pattern-intro-right-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: -150px;
+    padding: 0em 6.9em;
+    height: 60vh;
+}
+
+.hero-main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 250px;
+}
+
+.hero-context {
+    background-image: url('./images/image-intro-desktop.jpg');
+    z-index: 1;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    width: 390px;
+    margin-top: 45px;
+}
+
+.hero-line {
+    background: #ffffff;
+    width: 100px;
+    height: 2px;
+    border-radius: 3px;
+}
+
+.hero-content {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    line-height: 40px;
+}
+
+.hero-content p {
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 300;
+    /* letter-spacing: 1px; */
+    line-height: 22px;
+    width: 550px;
+}
+
+.button {
+    background: #2c2640;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px 24px;
+    border-radius: 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.about {
+    height: 120vh;
+    padding: 20em 6.9em;
+    background-image: url('./images/bg-pattern-intro-left-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: -150px;
+}
+
+.hero-lin {
+    background: #333333;
+    width: 100px;
+    height: 2px;
+    border-radius: 3px;
+}
+
+.hero-about {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.hero-about h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.about-flexed {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-content h3 {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.about-content p {
+    color: #313133;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    line-height: 22px;
+    width: 350px;
+}
+
+.feature {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-content {
+    background: #2c2640;
+    background-image: url('./images/bg-pattern-intro-right-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+    width: 1150px;
+    border-radius: 5px;
+    gap: 350px;
+}
+
+.feature-content h1 {
+    font-size: 38px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+footer {
+    background: #fafafa;
+    background-image: url('./images/bg-pattern-footer-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-position-y: -50px;
+    height: 40vh;
+    padding: 2em 6.9em;
+}
+
+.hero-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.hero-li {
+    background: #333333;
+    width: 1150px;
+    height: 2px;
+    border-radius: 3px;
+}
+
+.footer-head {
+    display: flex;
+}
+
+.footer-head svg {
+    flex: 1;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.footer-rows {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+}
+
+.row-flexed {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-navs {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-navs p {
+    color: #313133;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.row-flexed h3 {
+    color: #313133;
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
